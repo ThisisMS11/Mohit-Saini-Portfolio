@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils";
+import { cn } from '@/lib/utils';
 
 type IconProps = {
   className?: string;
@@ -7,7 +7,7 @@ type IconProps = {
 export default function GithubIcon({ className }: IconProps) {
   return (
     <svg
-      className={cn("w-6 h-6", className)}
+      className={cn('w-6 h-6', className)}
       aria-hidden="true"
       xmlns="http://www.w3.org/2000/svg"
       width="24"

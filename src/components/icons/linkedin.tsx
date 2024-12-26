@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils";
+import { cn } from '@/lib/utils';
 
 type IconProps = {
   className?: string;
@@ -7,7 +7,7 @@ type IconProps = {
 export default function LinkedIcon({ className }: IconProps) {
   return (
     <svg
-      className={cn("w-7 h-7", className)}
+      className={cn('w-7 h-7', className)}
       aria-hidden="true"
       xmlns="http://www.w3.org/2000/svg"
       width="24"

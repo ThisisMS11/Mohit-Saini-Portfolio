@@ -1,5 +1,5 @@
-"use client";
-import * as React from "react";
+'use client';
+import * as React from 'react';
 
 import {
   Carousel,
@@ -7,13 +7,13 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel";
-import { Badge } from "./ui/badge";
-import Image from "next/image";
-import { Button } from "./ui/button";
-import { SquareArrowOutUpRight } from "lucide-react";
-import GithubIcon from "@/components/icons/github";
-import { projectData } from "@/app/data";
+} from '@/components/ui/carousel';
+import { Badge } from './ui/badge';
+import Image from 'next/image';
+import { Button } from './ui/button';
+import { SquareArrowOutUpRight, Video } from 'lucide-react';
+import GithubIcon from '@/components/icons/github';
+import { projectData } from '@/app/data';
 
 export function ProjectCarousel() {
   return (
@@ -54,17 +54,25 @@ export function ProjectCarousel() {
 
               <div className="flex flex-wrap items-center mt-4 gap-2">
                 <Button
-                  onClick={() => window.open(item.liveLink, "_blank")}
+                  onClick={() => window.open(item.liveLink, '_blank')}
                   className="h-7 font-bold text-xs"
                 >
-                  Live <SquareArrowOutUpRight className="w-3 h-3" />{" "}
+                  Live <SquareArrowOutUpRight className="w-3 h-3" />{' '}
                 </Button>
                 <Button
-                  onClick={() => window.open(item.liveLink, "_blank")}
+                  onClick={() => window.open(item.liveLink, '_blank')}
                   className="h-7 font-bold text-xs"
                 >
                   Github <GithubIcon />
                 </Button>
+                {item.videoLink && (
+                  <Button
+                    onClick={() => window.open(item.videoLink, '_blank')}
+                    className="h-7 font-bold text-xs"
+                  >
+                    Demo <Video />
+                  </Button>
+                )}
               </div>
 
               <Image

@@ -1,6 +1,6 @@
-import React from "react";
-import Heading from "./heading";
-import { Badge } from "./ui/badge";
+import React from 'react';
+import Heading from './heading';
+import { Badge } from './ui/badge';
 
 export default function Skills() {
   return (
@@ -10,18 +10,28 @@ export default function Skills() {
 
         <article className="flex items-center gap-2 px-6 flex-wrap">
           {[
-            "NextJs",
-            "ReactJs",
-            "TS/JS",
-            "Hono",
-            "PostgreSQL",
-            "MongoDB",
-            "Prisma",
-            "TailwindCSS",
-            "Docker",
-            "NodeJs/ExpressJs",
-            "WebSockets",
-            "Git/Github",
+            'Javascript/Typescript',
+            'C/C++',
+            'Python',
+            'NextJs',
+            'ReactJs',
+            'PostgreSQL',
+            'MongoDB',
+            'Prisma',
+            'TailwindCSS',
+            'Docker',
+            'NodeJs/ExpressJs',
+            'Django',
+            'NestJs',
+            'WebSockets',
+            'Git/Github',
+            'AWS DyanmoDB',
+            'AWS S3',
+            'AWS Lambda',
+            'Redis',
+            'Postman',
+            'Figma',
+            'Linux',
           ].map((item, index) => (
             <Badge
               key={index}

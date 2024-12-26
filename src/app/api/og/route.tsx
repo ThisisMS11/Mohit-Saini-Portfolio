@@ -1,6 +1,6 @@
-import { ImageResponse } from "next/og";
+import { ImageResponse } from 'next/og';
 
-export const runtime = "edge";
+export const runtime = 'edge';
 
 export async function GET() {
   // const usdcBuffer = await fetch(new URL('../../../../public/usdc.svg', import.meta.url)).then(
@@ -35,45 +35,45 @@ export async function GET() {
           tw="flex items-center justify-center border-black w-[20%] mb-6 p-2"
           src="https://res.cloudinary.com/dazeowi1e/image/upload/f_auto,q_auto/v1/portfolio/d8tdxef7b8kdkiaeqtr7"
         />
-        <div tw="text-[3rem]">Aman Kumar Bairagi</div>
-        <div tw="">Passionate Frontend Developer</div>
+        <div tw="text-[3rem]">Mohit Saini</div>
+        <div tw="">Passionate Web Developer</div>
         <div tw="text-[1rem] absolute bottom-4 opacity-50">
-          Reachout : amanbairagi1089@gmail.com
+          Reachout : mohitforwork2002@gmail.com
         </div>
         <div
           style={{
-            background: "linear-gradient(135deg, #667eea  0%, #ffff 40%)",
-            width: "20rem",
-            height: "20rem",
-            filter: "blur(130px)",
-            borderRadius: "50%",
-            display: "flex",
-            position: "absolute",
-            opacity: "0.5",
-            top: "-100px",
-            right: "-40px",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
-            fontFamily: "main",
+            background: 'linear-gradient(135deg, #667eea  0%, #ffff 40%)',
+            width: '20rem',
+            height: '20rem',
+            filter: 'blur(130px)',
+            borderRadius: '50%',
+            display: 'flex',
+            position: 'absolute',
+            opacity: '0.5',
+            top: '-100px',
+            right: '-40px',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'center',
+            fontFamily: 'main',
           }}
         ></div>
         <div
           style={{
-            background: "linear-gradient(135deg, #667eea  0%, #ffff 40%)",
-            width: "20rem",
-            height: "20rem",
-            filter: "blur(130px)",
-            borderRadius: "50%",
-            display: "flex",
-            position: "absolute",
-            bottom: "-100px",
-            left: "-40px",
-            flexDirection: "column",
-            alignItems: "center",
-            opacity: "0.5",
-            justifyContent: "center",
-            fontFamily: "main",
+            background: 'linear-gradient(135deg, #667eea  0%, #ffff 40%)',
+            width: '20rem',
+            height: '20rem',
+            filter: 'blur(130px)',
+            borderRadius: '50%',
+            display: 'flex',
+            position: 'absolute',
+            bottom: '-100px',
+            left: '-40px',
+            flexDirection: 'column',
+            alignItems: 'center',
+            opacity: '0.5',
+            justifyContent: 'center',
+            fontFamily: 'main',
           }}
         ></div>
       </div>
@@ -86,6 +86,6 @@ export async function GET() {
       //     },
       //   ],
       // }
-    )
+    ),
   );
 }
