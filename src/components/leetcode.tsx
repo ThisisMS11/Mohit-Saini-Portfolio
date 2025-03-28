@@ -64,7 +64,7 @@ export default function LeetCodeHeatmap({
 
   return (
     <>
-      {heatmapData.length > 0 ? (
+      {heatmapData && heatmapData.length > 0 ? (
         <ActivityCalendar
           data={heatmapData}
           maxLevel={4}
