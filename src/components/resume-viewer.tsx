@@ -24,7 +24,7 @@ const ResumeViewer = () => {
           <div className="flex flex-col items-center justify-center min-h-screen p-4">
             <div className="w-full max-w-xl bg-white shadow-xl rounded-xl overflow-hidden p-4 dark:shadow-2xl dark:shadow-primary/40">
               <div className="flex justify-center">
-                <Document file="/Mohit_Saini_Resume.pdf">
+                <Document file="/Mohit_Saini_Resume_April_2025.pdf">
                   <Page
                     pageNumber={1}
                     className="w-auto"
